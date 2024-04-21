@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Galeria</title>
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
     <link href="https://file.myfontastic.com/3j45yvRpaWhzeStdASehh9/icons.css" rel="stylesheet">
-
 </head>
 <body>
     <header class="main-header sedan-regular">
@@ -48,44 +47,43 @@
         <div class="banner__content2">Los autos de tus sueños</div>
     </section>
     <section>
-        <div class="izqproy">
-            <form class="formulario">
-                <fieldset>
-                    <legend>Contactános llenando todos los campos</legend>
-
-                    <div class="contenedor-campos">
-                        <div class="campo">
-                            <label>Nombre</label>
-                            <input class="input-text" type="text" placeholder="Tu Nombre">
-                        </div>
-
-                        <div class="campo">
-                            <label>Teléfono</label>
-                            <input class="input-text" type="tel" placeholder="Tu Teléfono">
-                        </div>
-
-                        <div class="campo">
-                            <label>Correo</label>
-                            <input class="input-text" type="email" placeholder="Tu Email">
-                        </div>
-                
-                        <div class="campo">
-                            <label>Mensaje</label>
-                            <textarea class="input-text"></textarea>
-                        </div>
-                    </div> 
-
-                    <div class="alinear-derecha flex">
-                        <input class="boton w-sm-100" type="submit" value="Enviar">
-                    </div>
-                </fieldset>
-            </form>
+        <div class="seccion-con-imagen">
+            <div id="fondo" class="seccion-con-imagen">
+                <h1 style="color: white;">Luxury Cars</h1>
+            </div>
+        </div>  
+        <div id="galeria">
+            <h3 style="color: rgb(82, 115, 88); padding-top: 10px; padding-left: 25px;">Destacados</h3>
+        </div> 
+        <div style="display: flex; justify-content: space-between; padding-top: 20px;padding-bottom: 5px;">
+            <div style="flex: 1; text-align: center; width: 300px; height: 300px;   padding-left: 30px; padding-right: 30px;">
+                <img style="max-width: 100%;"  src="./img/F812GTS.jpg"/>
+            </div>
+        
+            <div style="flex: 1; text-align: center; width: 300px; height: 300px;   padding-left: 30px; padding-right: 30px;">
+                <img style="max-width: 100%;" src="./img/Ferrari296GTS.jpg"/>
+            </div>
+        
+            <div style="flex: 1; text-align: center; width: 300px; height: 300px;   padding-left: 30px; padding-right: 30px;">
+                <img style="max-width: 100%;" src="./img/Ferrari488.jpg"/> 
+            </div>
         </div>
-        <div class="derproy">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6664.811159466774!2d-70.543819!3d-33.360476!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c9697c9bd221%3A0x8bec8631d1e3734d!2sFerrari%20Santiago!5e0!3m2!1ses-419!2sus!4v1713736431297!5m2!1ses-419!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div style="display: flex; justify-content: space-between; padding-top: 10px;">
+            <div style="flex: 1; text-align: center; width: 300px; height: 300px;   padding-left: 30px; padding-right: 30px;">
+                <img style="max-width: 100%;"  src="./img/Ferrari812GTS2.jpg"/>
+            </div>
+        
+            <div style="flex: 1; text-align: center; width: 300px; height: 300px;   padding-left: 30px; padding-right: 30px;">
+                <img style="max-width: 100%;" src="./img/FerrariSF90.jpg"/>
+            </div>
+        
+            <div style="flex: 1; text-align: center; width: 300px; height: 300px;   padding-left: 30px; padding-right: 30px;">
+                <img style="max-width: 100%;" src="./img/MaseratiGT.jpg"/> 
+            </div>
         </div>
     </section>
-    
+
+
     <footer class="main-footer">
         <div class="container container--flex">
             <div class="column column--33">
@@ -107,5 +105,7 @@
             <p class="copy">@ 2020 Tu Pizza | Todos los derechos reservados</p>
         </div>
     </footer>
+    <script src="js/menu.js"></script>
+
 </body>
 </html>
