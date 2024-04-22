@@ -3,9 +3,10 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: sans-serif;
     margin: 0;
 }
+
 /* paleta de colores*/
 
 :root {
@@ -53,6 +54,12 @@ h1,h2,h3,h4,h5{
     padding: 10px;
     font-family: 'Sacramento', cursive;
         
+}
+.logo2{
+    font-size: 1.9em;
+    color: #ddd;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .main-header__contactInfo__phone{
     background:#de423a;
@@ -271,10 +278,17 @@ h1,h2,h3,h4,h5{
 	padding-bottom: 20px;
 }
 .today-special__price{
-	font-size: 0,5em;
+	font-size: 0,4em;
 	color: #474444;
 	font-weight: bold;
 }
+
+.today-special__price2{
+	font-size: 0,4em;
+	color: #474444;
+	font-weight: bold;
+}
+
 
 /*----------------Estilos Principales------------------*/
 .main-footer{
@@ -538,11 +552,20 @@ h1,h2,h3,h4,h5{
     height: 500px;
 }
 .derproy{
-    float: right;
-    width: 50%;
-    height: 500px;
+    position: relative;
+    bottom: 300px;
+    left: 50%;
+    
 }
 
+.d-item{
+    height: 400px;
+    padding: 10px;
+}
 
-
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0,6);
+}
 
