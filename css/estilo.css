@@ -242,7 +242,7 @@ h1,h2,h3,h4,h5{
 	
 }
 .group__title{
-	font-family:'Sacramento',cursive;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.8em;
@@ -266,13 +266,13 @@ h1,h2,h3,h4,h5{
 
 .today-special__tittle{
 	
-	font-size: 1.3em;
+	font-size: 1em;
 	padding-top: 10px;
 	padding-bottom: 20px;
 }
 .today-special__price{
-	font-size: 1.5em;
-	color: #DE423a;
+	font-size: 0,5em;
+	color: #474444;
 	font-weight: bold;
 }
 
@@ -530,9 +530,7 @@ h1,h2,h3,h4,h5{
     display: flex;
 }
 
-.alinear-derecha {
-    justify-content: flex-end;
-}
+
 
 .izqproy{
     float: left;
