@@ -47,44 +47,36 @@
         <img src="img/portv.jpg" alt="" class="banner__img2">
         <div class="banner__content2">Los autos de tus sueños</div>
     </section>
-    <section>
-        <div class="izqproy">
-            <form class="formulario">
-                <fieldset>
-                    <legend>Contactános llenando todos los campos</legend>
-
-                    <div class="contenedor-campos">
-                        <div class="campo">
-                            <label>Nombre</label>
-                            <input class="input-text" type="text" placeholder="Tu Nombre">
-                        </div>
-
-                        <div class="campo">
-                            <label>Teléfono</label>
-                            <input class="input-text" type="tel" placeholder="Tu Teléfono">
-                        </div>
-
-                        <div class="campo">
-                            <label>Correo</label>
-                            <input class="input-text" type="email" placeholder="Tu Email">
-                        </div>
-                
-                        <div class="campo">
-                            <label>Mensaje</label>
-                            <textarea class="input-text"></textarea>
-                        </div>
-                    </div> 
-
-                    <div class="alinear-derecha flex">
-                        <input class="boton w-sm-100" type="submit" value="Enviar">
-                    </div>
-                </fieldset>
-            </form>
-        </div>
-        <div class="derproy">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6664.811159466774!2d-70.543819!3d-33.360476!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c9697c9bd221%3A0x8bec8631d1e3734d!2sFerrari%20Santiago!5e0!3m2!1ses-419!2sus!4v1713736431297!5m2!1ses-419!2sus" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </section>
+    <main class="main">
+        <section class="group main__about_description">
+            <div class="container container--flex">
+                <form action="/my-handling-form-page" method="post" style="background-color: grey;">
+                    <ul>
+                      <li>
+                        <label for="Nombre">Nombre:</label>
+                        <input type="text" id="name" name="user_name" />
+                      </li>
+                      <li>
+                        <label for="Correo">Correo electrónico:</label>
+                        <input type="email" id="mail" name="user_mail" />
+                      </li>
+                      <li>
+                        <label for="Mensaje">Mensaje:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                      </li>
+                    </ul>
+                    <li class="button">
+                        <button type="submit">Envíe su mensaje</button>
+                    </li>
+                  </form>
+                  
+                </div>
+                <div class="container container--flex column column--50">
+            
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6664.811159466774!2d-70.543819!3d-33.360476!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c9697c9bd221%3A0x8bec8631d1e3734d!2sFerrari%20Santiago!5e0!3m2!1ses-419!2sus!4v1713736431297!5m2!1ses-419!2sus" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        </section>   
+    </main>
     
     <footer class="main-footer">
         <div class="container container--flex">
